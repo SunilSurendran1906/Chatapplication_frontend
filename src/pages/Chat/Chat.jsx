@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState,  } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Chat.css";
 import LogoSearch from "../../components/ProfileSide/LogoSearch/LogoSearch";
-import { useSelector,useDispatch } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { userChats } from "../../Api/ChatRequest.js";
 import Conversation from "../../components/Conversation/Conversation.jsx";
 import ChatBox from "../../components/ChatBox/ChatBox.jsx";
@@ -33,7 +33,7 @@ const Chat = () => {
 
   // Connect to Socket.io
   useEffect(() => {
-    socket.current = io("ws://localhost:8800");
+    socket.current = io("https://chat-socketapp.onrender.com");
     socket.current.emit("new-user-add", user._id);
     socket.current.on("get-users", (users) => {
       setOnlineUsers(users);
