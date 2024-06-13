@@ -1,4 +1,4 @@
-ChaInt is a sophisticated chat application website designed for seamless communication. It offers real-time messaging, video calls, and file sharing, all wrapped in a user-friendly interface. With robust security features and AI-driven tools, ChaInt ensures efficient and secure interactions for both personal and professional use.
+ChaInt is a sophisticated chat application website designed for seamless communication. It offers real-time messaging all wrapped in a user-friendly interface. With robust security features and AI-driven tools, ChaInt ensures efficient and secure interactions for both personal and professional use.
 
 
 Onclick =https://chatapplication-zenclass.netlify.app/auth
